@@ -1,0 +1,169 @@
+
+body {
+    background-color: #FAFAFA;
+}
+
+div#container {
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+}
+
+.main-container {
+    background-color: #F5F5F5
+}
+
+
+/************
+start profile view
+*******************/
+div.profile-view img {
+	max-width: 170px;
+	width: 100%;
+    max-height: 170px;
+    height: 100%;
+}
+
+.profile-view .container {
+	width: 600px;
+}
+
+.pic-container {
+    position: relative;
+    width: 170px;
+    height: 170px;
+}
+
+.pic-container:hover .button {
+	display: block;
+}
+
+.pic-container:hover img {
+	background-color: gray;
+}
+
+.button {
+    position: absolute;
+    top: 90px;
+    left: 69px;
+    display: none;
+}
+
+.button a {
+	color: red;
+	font-size: 120%;
+}
+
+/*.form-view {
+    display: block;
+}*/
+
+.form-edit, .update-btn, .cancel-btn {
+    display: none;
+}
+
+input#datepicker {
+    width: 100%;
+}
+
+textarea {
+    width: 600px;
+    height: 160px;
+}
+
+.lahi, button.btn.btn-success.update-btn-pro, .changepass-btn {
+    display: none;
+}
+
+form#update_profile_pic {
+    position: absolute;
+    top: 256px;
+    left: 606px;
+}
+button.btn.btn-success.update-btn-pro {
+    position: absolute;
+    top: 0px;
+}
+
+/************
+Change password
+************/
+.change-password-group {
+    width: 200px;
+    margin: auto;
+}
+
+
+/************
+*************/
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/**********
+Start Error Style
+***********/
+.error-message, label.error {
+    color: #fd0500;
+    /*background-color: #fd0500;*/
+    /*border-color: #ebccd1;*/
+}
+div#flashMessage {
+    color: #000;
+    background-color: #f38435;
+    border-color: #ebccd1;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+div.flash_error {
+    color: #FFF !important;
+    background-color: #f56966 !important;
+}
+
+input.error {
+    background: url(https://cdn0.iconfinder.com/data/icons/shift-free/32/Error-128.png)no-repeat right 2px center !important;
+    /*border: 1px solid !important;*/
+    border-color: #f30e09 !important;
+    color: #f30e09 !important;
+    border-radius: 3px !important;
+    background-size: 28px !important;
+    border-bottom: 1px solid !important;
+}
+/**********
+End Error Style
+***********/
